@@ -1,4 +1,10 @@
+
 //Switch statment better/easier to read than if/else statement
+// Change case of Headline
+$(document).ready(function() {
+    $('#changeCase').css('text-transform','uppercase');
+});
+
 var colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"];
 
 document.getElementById("button-tog").addEventListener("click", colorChange);
